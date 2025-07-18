@@ -261,11 +261,6 @@ if st.session_state.show_result and not st.session_state.anim_played:
             </style>
             <div class="loss-animation">💥 Game Over 💥</div>
         """, unsafe_allow_html=True)
-        st.markdown("""
-        <script>
-        new Audio('https://www.myinstants.com/media/sounds/wrong-answer-sound-effect.mp3').play();
-        </script>
-        """, unsafe_allow_html=True)
     st.session_state.anim_played = True
 
 # Stats
